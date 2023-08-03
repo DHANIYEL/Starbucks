@@ -37,6 +37,12 @@ nav ul {
 nav ul li {
   list-style: none;
 }
+nav ul li a::after,
+nav ul li a:hover {
+  color: #9bc1bc;
+  transition: all 0.5s ease;
+  transform: translateY(-15%);
+}
 nav ul li a {
   display: inline-block;
   text-decoration: none;
@@ -142,4 +148,10 @@ p {
   width: 100%;
   background-color: #017143;
   clip-path: circle(600px at right 800px);
+}
+.btn ::after,
+.btn:hover {
+  background-color: aliceblue;
+  border: 1px solid #017143;
+  color: #333;
 }
