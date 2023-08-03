@@ -49,9 +49,9 @@
       </div>
 
       <ul class="thumb">
-        <li><img src="thumb1.png" alt="" /></li>
-        <li><img src="thumb2.png" alt="" /></li>
-        <li><img src="thumb3.png" alt="" /></li>
+        <li><img src="thumb1.png" onclick="imgSlider('img1.png')" /></li>
+        <li><img src="thumb2.png" onclick="imgSlider('img2.png')" /></li>
+        <li><img src="thumb3.png" onclick="imgSlider('img3.png')" /></li>
       </ul>
       <ul class="side">
         <li>
@@ -65,5 +65,10 @@
         </li>
       </ul>
     </section>
+    <script type="text/js">
+            function imgSlider(anything){
+      document.querySelector('.Starbucks-coffee').src=anything;
+            }
+    </script>
   </body>
 </html>
