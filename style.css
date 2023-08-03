@@ -119,6 +119,18 @@ p {
 .side {
   position: absolute;
   top: 50%;
-  right: 0;
-  transform: translate(-50%);
+  right: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.side li {
+  list-style: none;
+}
+.side li a {
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.6);
 }
