@@ -116,3 +116,9 @@ p {
 .thumb li img {
   max-width: 60px;
 }
+.side {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%);
+}
