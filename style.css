@@ -33,7 +33,7 @@ nav {
   align-items: center;
 }
 nav img {
-  max-width: 80px;
+  max-width: 64px;
 }
 nav ul {
   display: flex;
@@ -159,4 +159,9 @@ p {
   background-color: aliceblue;
   border: 1px solid #017143;
   color: #333;
+}
+@media (max-width: 991px) {
+  nav {
+    padding: 20px;
+  }
 }
